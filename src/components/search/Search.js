@@ -26,7 +26,7 @@ export default function Search({ onSearchChange }) {
 
   const handleChange = (searchData) => {
     setSearch(searchData);
-    onSearchChange(searchData);
+    onSearchChange(searchData); //this is how you send props to a parent component,pass it as function parameter.
   };
 
   return (
